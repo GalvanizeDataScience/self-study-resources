@@ -6,135 +6,86 @@ geometry: margin=1.25in
 
 ---
 
-Working through these questions is a great way to gauge your level of understanding in Data Science.  
+Have you been thinking about applying to Galvanize? How do you know you have enough of a technical background to be successful in our Data Science Immersive course? Find out by working through this document.
+
+This document was designed to help you to gauge your level of understanding in programming (both Python and SQL) and to test your proficiency in Probability and Statistics. It also references resources which will help you along the way. If you want to learn more about the Admissions process itself, you will find a full description in DSI_Admission_process.pdf.  
 
 **NOTE**: This text can be shared publicly!
 
 
-# Python Resources
+# 1 - Python
+Python is an extremely popular and powerful programming language with tools to work in nearly every application area.  In particular, Python (and specifically the Anaconda environment that supports it) is the industry standard for machine learning.  As such, comfort with Python is a must for any aspiring data scientist.  In the Galvanize Data Science Immersive we teach data science using Python, and only briefly review python topics during the course.  We therefore require that students pass a python coding interview.
 
-Python is an extremely popular and powerful programming language with tools to work in nearly every application area.  In particular, Python (and specifically the [`anaconda`](https://www.continuum.io/anaconda-overview) environment that supports it) is the industry standard for machine learning.  As such, comfort with python is a must for any aspiring data scientist.  
+### How do you know you are ready?
+You should be ready for the program if you are able to comfortably solve most CodeWars (http://bit.ly/2iWF0LL) Level 6-7 problems in about 30 minutes.
 
-In the Galvanize Data Science Immersive we teach data science which students build on top of their python expertise---we only briefly review python topics.   We therefore require that students pass a python coding interview.
+### Resources
+These are our top 3 online resources. They cover similar topics, but have their own approach to teaching Python.
+  1.  Learn Python the Hard Way (Exercises 0-39): A combination of explanations and exercises to apply the concepts (https://learnpythonthehardway.org/book/)
+  2. Codecademy Python (Chapters 1-8, 12): An online interactive coding environment that provides lot of guidance and automatic feedback (https://www.codecademy.com/learn/python)
+  3. Google’s Python Course  (up to and including dictionaries): Nice resource if you like to have videos to follow along (https://developers.google.com/edu/python/)
 
-The following are various resources targeted to different levels of applicants:
+Taking the Python workshop offered at Galvanize is a great option if you want to learn on campus. Even better, if you take the workshop and are accepted into the Galvanize Data Science program, we will credit the amount you paid for the workshop to your tuition balance.
+	Galvanize Part-Time Course: Python Fundamentals (http://www.galvanize.com/courses/intro-to-python/)
 
+### Do you need more fluency?
+Practice on coding challenge websites like Codewars (https://www.codewars.com/) and CoderByte (https://coderbyte.com). Use Stackoverflow when you're stuck. Keep practicing.
 
-## Beginner (Little to no Experience)
-
-If you’ve not coded much (or at all) before, “Learn Python the Hard Way”  is a good way to understand and learn the basics of Python (and programming in general).
-
-Taking the [Python Fundamentals workshop](http://www.galvanize.com/courses/intro-to-python/) offered at Galvanize is also a really great way to ramp up on python! Even better, if you take the workshop and are accepted into the Galvanize Data Science program, we will credit the amount you paid for the workshop to your tuition balance.
-
-In addition, you can check out:
-
-* [Learn Python the Hard Way](https://learnpythonthehardway.org/) (http://bit.ly/2cmDtZt)
-    * Specifically Exercises 0-39
-* [Codecademy's Python Course](https://www.codecademy.com/learn/python) (http://bit.ly/1GO0Fx1)
-* [Galvanize Part-Time Course: Python Fundamentals](http://www.galvanize.com/courses/intro-to-python/) (http://bit.ly/2jaJ7S2)
-
-
-## Novice (Some Experience Coding)
-
-If you already understand the basics of programming, you may prefer the slightly more	advanced treatment of Python in the [Google Python course](https://developers.google.com/edu/python/) (http://bit.ly/1bmXyG5).
-
-
-## Intermediate (Programming Experience Needs a Refresher)
-
-If you’re already comfortable coding, you may just want to jump straight to the Python documentation.  The [tutorial available from the python site](https://docs.python.org/3/tutorial/index.html) (http://bit.ly/1LBc6Ua) is a comprehensive and excellent resource to quickly transition from your current programming language(s) into Python.
-
-Additionally, there is a higher-level [Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-9) (http://bit.ly/2fLUXPC) course offered through edX that provides insights into more complex subjects such as sorting and runtime analysis.  While this is more advanced than admittance into the Data Science Immersive requires, it can serve to take your Python skills to the next level.
-
-**Remember**: To pass the python interview one must be able to comfortably solve most [CodeWars](https://www.codewars.com/?language=python) (http://bit.ly/2iWF0LL) Level 6-7 problems in about 30 minutes!
+Want to practice on some mock challenges? Checkout the Python section of the self assessment document and work through the Python section of the coding challenges.
 
 ---
 
-# Statistics Resources
+# 2 - SQL Resources
+SQL is a building block of many things we do. If you are familiar with programming or data analysis, learning to write basic SQL queries won’t take very long.
 
-In the Galvanize Data Science Immersive, we review probability, statistics, and classical regression but then build on these topics as we learn advanced and modern machine learning methodology. It is therefore extremely important that our students be quantitatively and analytically literate with strong comfort in baseline probability and statistical theory.  We evaluate technical analytical skills though a Statistics/Machine Learning interview.  
+### How do you know you are ready?
+ You should be familiar with SELECT, FROM, WHERE, CASE clauses and know how to use aggregates as well as JOINs!
 
-To pass the interview one should be able to...
+### Resources
+There are many online resources to learning SQL. Here are some recommendations:
+  1. SQLZoo (Sections 0 to 7, http://sqlzoo.net/)
+  2. Codacademy SQL (Chapters 1-4, without the pro version, https://www.codecademy.com/learn/learn-sql)
 
-1. Comfortably solve probability problems
-2. Leverage statistical distributions to solve real world problems
-3. Have a solid understanding of chapters 1-4 of an [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Sixth%20Printing.pdf) (http://bit.ly/1Wma81Z)
-
-
-## Novice (Little to No Experience)
-
-If you’ve never seen statistics in your life (or can’t remember anything about it) then an online “Introduction to Statistics” course would would be a good start.  [Khan Academy](http://www.khanacademy.org/) provides some good “entry level statistics videos” and a good introductory course is available on [Udacity](https://www.udacity.com/).
-
-* [Udacity's Intro to Statistics](https://www.udacity.com/course/intro-to-statistics--st101) (http://bit.ly/1SnQHUx)
-* [Khan Academy: Probability](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic) (http://bit.ly/2j0KpBR)
-* [Khan Academy: Random Variables](https://www.khanacademy.org/math/probability/random-variables-topic) (http://bit.ly/1Q8I7FX)
-* [JB Statistics](http://www.jbstatistics.com/) (http://bit.ly/2iWzSap)
-
-<!-- Should we point to specific sections of JBStatistics? -->
-
-
-## Intermediate (Some Experience)
-
-If any topics in the 14 sections covered in [this Probability Review](http://www.intmath.com/counting-probability/counting-probability-intro.php) (http://bit.ly/2i6OLb4) remain unclear or fuzzy after you’ve gone over it you should search out some additional learning material online.
+Want to practice on some mock challenges? Checkout the SQL section of the coding challenges.
 
 ---
 
-# Going Further
+# 3- Statistics and Probability Resources
+In the Galvanize Data Science Immersive, we review probability, statistics and classical regression, but then build on these topics as we learn advanced and modern machine learning methodology. It is therefore extremely important that our students be quantitatively and analytically literate, with a solid background in baseline probability and statistical theory.  We evaluate technical analytical skills though a math interview focusing on probabilities, statistics and basic model building.  
 
-## Machine Learning
+### How do you know you are ready?
+The math background we want to see will allow you to (1) comfortably solve probability problems, (2) leverage statistical distributions to solve real world problems, and (3) perform hypothesis testing. A solid understanding of basic tools for linear regression is also appreciated.
 
-In addition to the probability and statistics content on the Stats/ML interview, key machine learning concepts will be discussed.  A good overview of ML is available through the [Introduction to Machine Learning course](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) (http://bit.ly/2bp2YJX) videos (and the associated pdf textbook).  
+### Resources
+#### Never taken a stats course?
+We recommend you take a full-length course in statistics or probability before applying. Khan Academy and Udacity provides some good “entry level statistics videos” and a good introductory course is available on Udacity. Make sure to work through the exercises and take the quizzes.
 
-If you familiarize yourself with the content of that course you will come into Galvanize ready to maximize your learning experience.
+All of these resources cover the same basic information, just in different ways and formats.
+  - Udacity: Intro to Statistics (https://www.udacity.com/course/intro-to-statistics--st101)
+  - Khan Academy: Probability and Statistics (https://www.khanacademy.org/math/statistics-probability)
+  - Coursera, edX, and other sites also have a large number of introductory statistics classes.
 
-## SQL Resources
 
-Structured Query Language (SQL) is a building block of many things we do in the Data Science world. If you are familiar with programming or data analysis, learning SQL won’t take very long.
+#### Want to refresh your knowledge?
+These are areas you should focus on:
+  - Counting: permutations, combinations
+  - Probability: of a single event, of 2 or more events (conditional probability, independent and dependent events, mutually exclusive events, Bayes’ Theorem)
+  - Probability distributions: Binomial, Geometric, Poisson distributions; Uniform, Normal distributions
+  - Hypothesis testing: one/two sided test, confidence intervals, inference for two means, inference for proportions, chi-square tests
+  - Linear Regression: build simple models, model performance, bias/variance trade-off
 
-* [SQLZoo](http://sqlzoo.net/) (http://bit.ly/1RAqIc6) (Sections 0 to 7)
-* [Codacademy SQL Course](https://www.codecademy.com/learn/learn-sql) (http://bit.ly/1QjodIp) (Chapters 1-4---not the pro version)
+There are excellent exercises mentioned in the resources above. Should you wish for some additional learning material online, we would recommend this  Probability Review (http://www.intmath.com/counting-probability/counting-probability-intro.php) and this Statistics Videos (http://www.jbstatistics.com/).
 
----
+#### Want to go further?
+To go beyond the call of duty, and make sure you are in great shape for the program, work your way through chapters 1-4 of an Introduction to Statistical Learning. You could also enroll in this Stanford online course or find the same material in this In Depth Introduction to Machine Learning.
 
-# Self Assessment Questions
 
-Have you been thinking about applying to Galvanize but are unsure whether you are ready for the Data Science Immersive? How do you know you have enough of a technical background to be successful in our Data Science Immersive course?
-
-If you can answer most of the following questions, we want to see your application!
-
-* Can you solve most Level 6-7 [CodeWars](https://www.codewars.com/) challenges in Python in about 30 minutes?
-* Can you explain the answers to the following scenarios?
-    * If two events are independent, what is the probability that they both occur?
-    * If two events are mutually exclusive, what is the probability that one or the other occurs?
-    * What is the purpose of linear regression? How is the "best fit" line calculated?
-    * What is the purpose of logistic regression? How is logistic regression similar to linear regression? How does it differ?
-    * Have you ever performed a hypothesis test?
-
----
-
-# Comprehensive Introduction
-
-Our [Data Science Primer](https://github.com/zipfian/data-science-primer) (http://bit.ly/1TnYbZu) is the most comprehensive resource and is an excellent preparation for the program. It is a substantial packet that may take some time however we would still recommend candidates complete this.
+Want to practice on some mock challenges? Checkout the math challenges of the self assessment document.
 
 ---
 
-# Admissions Process Description
+# 4 - Comprehensive
 
-## Technical Assessment sent via email (3 questions, 4-hour time limit)
+Our Data Science Primer: https://github.com/zipfian/data-science-primer
 
-1. Python: The Python question won’t require any special libraries. It will just be a basic programming task testing your ability to structure a program.
-2. SQL: The SQL material is all about querying (select statements). We will provide an outline of a table, and then you will have to write a query to pull information from the table.
-3. Statistics: The stats question will mainly concern hypothesis testing.
-
-
-## Python Interview via Google Hangout
-
-This is a technical interview where you will solve a challenge problem in Python. It is conducted by a Data Science alum or instructor, via Google Hangout. You will use a collaborative code editor so the instructor can observe you as you work through the problem(s). The candidate should be familiar with all of the basic data structures in python, and basic control flow/logical statements. The candidate should be capable of writing simple functions in Python.
-
-
-## Statistics Interview via Google Hangout
-
-The interview is conducted by an instructor or alum, via Google Hangout. There will be no software or programming; questions will be shared over chat and then worked through with the interviewer. You should be familiar with college level statistics and probability concepts. You may be asked about probability distributions, hypothesis testing, confidence intervals, multiple linear regression, logistic regression, and statistical modeling, as well as basic visual methods of model evaluation.
-
-After the final interview, an Admissions decision will then be made within 1-2 business days.
-
-**NOTE**:  As tempting as it is to ask the interviewer whether you passed, they have been instructed to leave that final judgement to the admissions officer.  Feel free, however, to ask your interviewer where you could improve and bring up any questions you have about the immersive!
+This is the most comprehensive source and excellent preparation for the program. It is a substantial packet that may take some time. However, it is a great resource for potential students.

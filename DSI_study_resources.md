@@ -13,7 +13,7 @@ Working through these questions is a great way to gauge your level of understand
 
 # Python Resources
 
-Python is an extremely popular and extremely powerful programming language with tools to work in nearly every application area.  In particular, Python (and specifically the [`anaconda`](https://www.continuum.io/anaconda-overview) environment that supports it) is the industry standard for machine learning.  As such, comfort with python is a must for any aspiring data scientist.  
+Python is an extremely popular and powerful programming language with tools to work in nearly every application area.  In particular, Python (and specifically the [`anaconda`](https://www.continuum.io/anaconda-overview) environment that supports it) is the industry standard for machine learning.  As such, comfort with python is a must for any aspiring data scientist.  
 
 In the Galvanize Data Science Immersive we teach data science which students build on top of their python expertise---we only briefly review python topics.   We therefore require that students pass a python coding interview.
 
@@ -28,7 +28,7 @@ Taking the [Python Fundamentals workshop](http://www.galvanize.com/courses/intro
 
 In addition, you can check out:
 
-* [Learn Python the Hard Way](http://www.galvanize.com/courses/intro-to-python/) (http://bit.ly/2jaJ7S2)
+* [Learn Python the Hard Way](https://learnpythonthehardway.org/) (http://bit.ly/2cmDtZt)
     * Specifically Exercises 0-39
 * [Codecademy's Python Course](https://www.codecademy.com/learn/python) (http://bit.ly/1GO0Fx1)
 * [Galvanize Part-Time Course: Python Fundamentals](http://www.galvanize.com/courses/intro-to-python/) (http://bit.ly/2jaJ7S2)
@@ -82,7 +82,7 @@ If any topics in the 14 sections covered in [this Probability Review](http://www
 
 ## Machine Learning
 
-In addition to the probability and statistics content on the Stats/ML interview, key machine learning concepts will be discussed.  A very good overview of ML is available through the [Introduction to Machine Learning course](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) (http://bit.ly/2bp2YJX) videos (and the associated pdf textbook).  
+In addition to the probability and statistics content on the Stats/ML interview, key machine learning concepts will be discussed.  A good overview of ML is available through the [Introduction to Machine Learning course](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) (http://bit.ly/2bp2YJX) videos (and the associated pdf textbook).  
 
 If you familiarize yourself with the content of that course you will come into Galvanize ready to maximize your learning experience.
 
@@ -133,9 +133,7 @@ This is a technical interview where you will solve a challenge problem in Python
 
 ## Statistics Interview via Google Hangout
 
-The interview is conducted by an instructor or alum, via Google Hangout. There will be no software or programming, questions will be shared over chat and then worked through with the interviewer. You should be familiar with college level stats and probability concepts. Topics reviewed include model fitting, regression analysis, probability, & c.
-
-Have an understanding of probability, probability distributions, hypothesis testing, and confidence intervals.  Have experience with multiple linear regression, logistic regression, and statistical modeling.  Understanding of basic visual methods of model evaluation.
+The interview is conducted by an instructor or alum, via Google Hangout. There will be no software or programming; questions will be shared over chat and then worked through with the interviewer. You should be familiar with college level statistics and probability concepts. You may be asked about probability distributions, hypothesis testing, confidence intervals, multiple linear regression, logistic regression, and statistical modeling, as well as basic visual methods of model evaluation.
 
 After the final interview, an Admissions decision will then be made within 1-2 business days.
 

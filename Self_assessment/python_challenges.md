@@ -7,6 +7,7 @@
 If understanding any of the scripts below is challenging, we encourage you to take the time study Python. You will find a recap of resources in the next paragraph. If you breeze through these questions, try your hand at solving the short python challenges in `python_challenges.md`.
 
 ### Resources
+
 You want to learn so more python. Here are the options we would recommend:
  - study with online resources.
    These are our top 3 online resources, they cover similar topics but have their own approach to teach Python

@@ -6,6 +6,7 @@ toc: true
 header-includes:
     - \usepackage{graphicx}
     - \usepackage{minted}
+    - \usepackage{multicol}
 include-before:
     \begin{center} \includegraphics[width=4cm]{imgs/logo.png} \end{center}
 ---
@@ -26,9 +27,9 @@ Without running the scripts, can you tell what the output will be?
 
 ## For Loops
 
-* Script 1
-
+\begin{multicols}{3}
 \begin{minted}[linenos]{python}
+# Script 1
 list_num = [1,2,3]
 for num in list_num:
     total = 0
@@ -36,11 +37,8 @@ for num in list_num:
     print total
 \end{minted}
 
----
-
-* Script 2
-
 \begin{minted}[linenos]{python}
+# Script 2
 list_num = [1,2,3]
 total = 0
 for num in list_num:
@@ -48,24 +46,23 @@ for num in list_num:
     print total
 \end{minted}
 
-
----
-
-* Script 3
-
 \begin{minted}[linenos]{python}
+# Script 3
 list_num = [1,2,3]
 total = 0
 for num in list_num:
     total += num
 print total
 \end{minted}
+\end{multicols}
+
 
 ## For Loops in Functions
 
-* Script 1
+\begin{multicols}{2}
 
-\begin{minted}[linenos]{python}
+\begin{minted}[linenos, fontsize=\footnotesize]{python}
+# Script 1
 def my_function1(my_list):
     output = []
     for item in my_list:
@@ -75,11 +72,10 @@ def my_function1(my_list):
 print my_function1(['cat', 'bad', 'dad'])
 \end{minted}
 
----
+~\\
 
-* Script 2
-
-\begin{minted}[linenos]{python}
+\begin{minted}[linenos, fontsize=\footnotesize]{python}
+# Script 2
 def my_function2(my_list):
     output = []
     for item in my_list:
@@ -89,11 +85,10 @@ def my_function2(my_list):
 print my_function2(['cat', 'bad', 'dad'])
 \end{minted}
 
----
+~\\
 
-* Script 3
-
-\begin{minted}[linenos]{python}
+\begin{minted}[linenos, fontsize=\footnotesize]{python}
+# Script 3
 def my_function3(my_list):
     output = []
     for item in my_list:
@@ -103,11 +98,10 @@ def my_function3(my_list):
 print my_function3(['cat', 'bad', 'dad'])
 \end{minted}
 
----
+~\\
 
-* Script 4
-
-\begin{minted}[linenos]{python}
+\begin{minted}[linenos, fontsize=\footnotesize]{python}
+# Script 4
 def my_function4(my_list):
     output = []
     for item in my_list:
@@ -118,11 +112,10 @@ print my_function4(['cat', 'bad', 'dad'])
 print my_function4(['cat', 'bad', 'dad'])
 \end{minted}
 
----
+~\\
 
-* Script 5
-
-\begin{minted}[linenos]{python}
+\begin{minted}[linenos, fontsize=\footnotesize]{python}
+# Script 5
 output = []
 def my_function5(my_list):
     for item in my_list:
@@ -132,6 +125,8 @@ def my_function5(my_list):
 print my_function5(['cat', 'bad', 'dad'])
 print my_function5(['cat', 'bad', 'dad'])
 \end{minted}
+
+\end{multicols}
 
 ## Make a function
 

@@ -1,11 +1,11 @@
 ---
 title: Data Science Admission Process
 author: Galvanize Inc.
-geometry: margin=1.25in
+geometry: margin=0.8in
 header-includes:
     - \usepackage{graphicx}
 include-before:
-    \begin{center} \includegraphics[width=4cm]{imgs/logo.png} \end{center}
+    \begin{center} \includegraphics[width=3.5cm]{imgs/logo.png} \end{center}
 ---
 
 ---

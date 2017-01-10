@@ -2,6 +2,11 @@
 title: Data Science Self-Study Resources
 author: Galvanize Inc.
 geometry: margin=1.25in
+toc: true
+header-includes:
+    - \usepackage{graphicx}
+include-before:
+    \begin{center} \includegraphics[width=4cm]{imgs/logo.png} \end{center}
 ---
 
 ---

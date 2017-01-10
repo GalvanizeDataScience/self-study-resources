@@ -3,16 +3,12 @@ title: Data Science Self-Assessment
 author: Galvanize Inc.
 geometry: margin=1.25in
 toc: true
-include-in-header: ./imgs/logo.png
+header-includes:
+    - \usepackage{graphicx}
+    - \usepackage{minted}
+include-before:
+    \begin{center} \includegraphics[width=4cm]{imgs/logo.png} \end{center}
 ---
-
-<!-- header-includes:
-    \usepackage{graphicx}
-    \usepackage{fancyhdr}
-    \pagestyle{fancy}
-    \setlength\headheight{28pt}
-    \fancyfoot[R]{\includegraphics[width=2cm]{imgs/logo.png}} -->
-
 
 ---
 
@@ -20,7 +16,7 @@ include-in-header: ./imgs/logo.png
 
 This document is designed to give you an idea of the baseline of Python and SQL knowledge required to apply for the Data Science Immersive program.  If understanding any of the scripts included in this PDF is challenging, we encourage you to take the time to study Python and/or SQL before beginning the application process.  For a list of free Python and SQL resources, please refer to the DSI Study Resources PDF.
 
-This document starts with some [simple python statements](#Spot_the_Differences) which you should be able to evaluate without actually executing.  We then proceed to [more advanced challenges](#More_Advanced_Python_Challenges) that will require a solid understanding of strings, lists, sets, dictionaries, file I/O, and functions.  We then end the self assessment with a [variety of SQL statements](#Getting_Ready_for_the_SQL_Assessment) you should be comfortable with.
+This document starts with some simple python statements which you should be able to evaluate without actually executing.  We then proceed to more advanced challenges that will require a solid understanding of strings, lists, sets, dictionaries, file I/O, and functions.  We then end the self assessment with a variety of SQL statements you should be comfortable with.
 
 ---
 
@@ -32,43 +28,44 @@ Without running the scripts, can you tell what the output will be?
 
 * Script 1
 
-```python
+\begin{minted}[linenos]{python}
 list_num = [1,2,3]
 for num in list_num:
     total = 0
     total += num
     print total
-```
+\end{minted}
 
 ---
 
 * Script 2
 
-```python
+\begin{minted}[linenos]{python}
 list_num = [1,2,3]
 total = 0
 for num in list_num:
     total += num
     print total
-```
+\end{minted}
+
 
 ---
 
 * Script 3
 
-```python
+\begin{minted}[linenos]{python}
 list_num = [1,2,3]
 total = 0
 for num in list_num:
     total += num
 print total
-```
+\end{minted}
 
 ## For Loops in Functions
 
 * Script 1
 
-```python
+\begin{minted}[linenos]{python}
 def my_function1(my_list):
     output = []
     for item in my_list:
@@ -76,13 +73,13 @@ def my_function1(my_list):
         return item
 
 print my_function1(['cat', 'bad', 'dad'])
-```
+\end{minted}
 
 ---
 
 * Script 2
 
-```python
+\begin{minted}[linenos]{python}
 def my_function2(my_list):
     output = []
     for item in my_list:
@@ -90,13 +87,13 @@ def my_function2(my_list):
         return output
 
 print my_function2(['cat', 'bad', 'dad'])
-```
+\end{minted}
 
 ---
 
 * Script 3
 
-```python
+\begin{minted}[linenos]{python}
 def my_function3(my_list):
     output = []
     for item in my_list:
@@ -104,13 +101,13 @@ def my_function3(my_list):
     return item
 
 print my_function3(['cat', 'bad', 'dad'])
-```
+\end{minted}
 
 ---
 
 * Script 4
 
-```python
+\begin{minted}[linenos]{python}
 def my_function4(my_list):
     output = []
     for item in my_list:
@@ -119,13 +116,13 @@ def my_function4(my_list):
 
 print my_function4(['cat', 'bad', 'dad'])
 print my_function4(['cat', 'bad', 'dad'])
-```
+\end{minted}
 
 ---
 
 * Script 5
 
-```python
+\begin{minted}[linenos]{python}
 output = []
 def my_function5(my_list):
     for item in my_list:
@@ -134,7 +131,7 @@ def my_function5(my_list):
 
 print my_function5(['cat', 'bad', 'dad'])
 print my_function5(['cat', 'bad', 'dad'])
-```
+\end{minted}
 
 ## Make a function
 
@@ -142,25 +139,25 @@ Try to keep your code organized in functions.  Take a look at each of the follow
 
 1. We want a function that takes a list of numbers and returns that list where 10 was added to each number.
 
-```python
+\begin{minted}[linenos]{python}
 list_num = [1,2,3]
 list_add_10 = []
 for num in list_num:
     list_add_10.append(num + 10)
 print list_add_10
-```
+\end{minted}
 
 ---
 
 2. We want a function that takes in a list of strings and returns the list with the length of the words.
 
-```python
+\begin{minted}[linenos]{python}
 list_words = ['great', 'job', 'so', 'far']
 list_length_words = []
 for word in list_words:
     list_length_words.append(len(word))
 print list_length_words
-```
+\end{minted}
 
 # More Advanced Python Challenges
 
@@ -170,7 +167,7 @@ Practice, practice, practice: we encourage you to work through these challenges.
 
 Write a function that looks at the number of times given letters appear in a document. The output should be in a dictionary.
 
-```python
+\begin{minted}[linenos]{python}
 def letter_counter(path_to_file, letters_to_count):
     ''' Returns the number of times specified letters appear in a file
 
@@ -197,7 +194,7 @@ def letter_counter(path_to_file, letters_to_count):
     {'i': 4, 'e':4, 'o':2, 'u':1}
     '''
     pass
-```
+\end{minted}
 
 ---
 
@@ -205,7 +202,7 @@ def letter_counter(path_to_file, letters_to_count):
 
 Write a function that removes one occurrence of a given item from a list. Do not use methods `.pop()` or `.remove()`! If the item is not present in the list, output should be 'The item is not in the list'.
 
-```python
+\begin{minted}[linenos]{python}
 def remove_item(list_items, item_to_remove):
     ''' Remove first occurrence of item from list
 
@@ -229,7 +226,7 @@ def remove_item(list_items, item_to_remove):
     [1,3,8,0]
     '''
     pass
-```
+\end{minted}
 
 ---
 
@@ -240,7 +237,7 @@ The simple substitution cipher basically consists of substituting every plaintex
 * Plain alphabet : abcdefghijklmnopqrstuvwxyz
 * cipher alphabet: phqgiumeaylnofdxjkrcvstzwb
 
-```python
+\begin{minted}[linenos]{python}
 def cipher(text, cipher_alphabet, option='encipher'):
     ''' Run text through a particular cipher alphabet
 
@@ -268,7 +265,7 @@ def cipher(text, cipher_alphabet, option='encipher'):
     'defend the east wall of the castle'
     '''
     pass
-```
+\end{minted}
 
 ---
 
@@ -279,7 +276,7 @@ Implement a function that counts the number of isograms in a list of strings.
 * An isogram is a word that has no repeating letters, consecutive or non-consecutive.
 * Assume the empty string is an isogram and that the function should be case insensitive.
 
-```python
+\begin{minted}[linenos]{python}
 def count_isograms(list_of_words):
     ''' Count the number of strings without repeating characters in a list
 
@@ -295,7 +292,7 @@ def count_isograms(list_of_words):
     1
     '''
     pass
-```
+\end{minted}
 
 ---
 
@@ -308,7 +305,7 @@ Write a function that returns a list of matching items.  Items are defined by a 
 
 (1,2) contains the same information as (2,1), the output list should only contain one of them.
 
-```python
+\begin{minted}[linenos]{python}
 def matching_pairs(data_list):
     '''
     Parameters
@@ -326,7 +323,7 @@ def matching_pairs(data_list):
     '''
     pass
 
-```
+\end{minted}
 
 ---
 

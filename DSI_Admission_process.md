@@ -2,6 +2,10 @@
 title: Data Science Admission Process
 author: Galvanize Inc.
 geometry: margin=1.25in
+header-includes:
+    - \usepackage{graphicx}
+include-before:
+    \begin{center} \includegraphics[width=4cm]{imgs/logo.png} \end{center}
 ---
 
 ---

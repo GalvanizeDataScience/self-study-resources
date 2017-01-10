@@ -19,7 +19,7 @@ include-before:
 
 # How to Use This Document
 
-This document is designed to give you an idea of the baseline of Python and SQL knowledge required to apply for the Data Science Immersive program.  If understanding any of the scripts included in this PDF is challenging, we encourage you to take the time to study Python and/or SQL before beginning the application process.  For a list of free Python and SQL resources, please refer to the DSI Study Resources PDF.
+This document is designed to give you an idea of the baseline of Python and SQL knowledge required to apply for the Data Science Immersive program.  If understanding any of the scripts included in this PDF is challenging, we encourage you to take the time to study Python and/or SQL before beginning the application process.  For a list of free Python and SQL resources, please refer to the [DSI Study Resources PDF](https://github.com/zipfian/self-study-resources/blob/master/DSI_Study_Resources.pdf).
 
 This document starts with some simple python statements which you should be able to evaluate without actually executing. We then proceed to more advanced challenges that will require a solid understanding of strings, lists, sets, dictionaries, file I/O, and functions.  We then end the self assessment with a variety of SQL statements you should be comfortable with.
 

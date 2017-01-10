@@ -2,7 +2,17 @@
 title: Data Science Self-Assessment
 author: Galvanize Inc.
 geometry: margin=1.25in
+toc: true
+include-in-header: ./imgs/logo.png
 ---
+
+<!-- header-includes:
+    \usepackage{graphicx}
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \setlength\headheight{28pt}
+    \fancyfoot[R]{\includegraphics[width=2cm]{imgs/logo.png}} -->
+
 
 ---
 

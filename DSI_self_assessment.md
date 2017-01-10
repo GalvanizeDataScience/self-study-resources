@@ -16,13 +16,13 @@ include-before:
 
 This document is designed to give you an idea of the baseline of Python and SQL knowledge required to apply for the Data Science Immersive program.  If understanding any of the scripts included in this PDF is challenging, we encourage you to take the time to study Python and/or SQL before beginning the application process.  For a list of free Python and SQL resources, please refer to the DSI Study Resources PDF.
 
-This document starts with some simple python statements which you should be able to evaluate without actually executing.  We then proceed to more advanced challenges that will require a solid understanding of strings, lists, sets, dictionaries, file I/O, and functions.  We then end the self assessment with a variety of SQL statements you should be comfortable with.
+This document starts with some simple python statements which you should be able to evaluate without actually executing. We then proceed to more advanced challenges that will require a solid understanding of strings, lists, sets, dictionaries, file I/O, and functions.  We then end the self assessment with a variety of SQL statements you should be comfortable with.
 
 ---
 
 # Spot the Differences
 
-Without running the scripts, can you tell what the output will be?
+Without running the scripts, can you tell what the output will be? If you have some Python or programming background, this section should take very little time.
 
 ## For Loops
 
@@ -135,7 +135,7 @@ print my_function5(['cat', 'bad', 'dad'])
 
 ## Make a function
 
-Try to keep your code organized in functions.  Take a look at each of the following functions and the associated solution.
+Functions, blocks of reusable code, keep your code modular, well organized and easily maintainable. You should try to keep your code organized in functions. Take a look at each of the following snippets of code and organize them into functions.
 
 1. We want a function that takes a list of numbers and returns that list where 10 was added to each number.
 

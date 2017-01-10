@@ -7,6 +7,10 @@ header-includes:
     - \usepackage{graphicx}
     - \usepackage{minted}
     - \usepackage{multicol}
+    - \usepackage{hyperref}
+    - \usepackage{color}
+    - \definecolor{darkblue}{rgb}{0.0,0.0,0.5}
+    - \hypersetup{colorlinks=true, linkcolor=darkblue, urlcolor=darkblue}
 include-before:
     \begin{center} \includegraphics[width=4cm]{imgs/logo.png} \end{center}
 ---
@@ -227,7 +231,7 @@ def remove_item(list_items, item_to_remove):
 
 ## Challenge 3
 
-The simple substitution cipher basically consists of substituting every plaintext character for a different ciphertext character.  The following is an example of one possible cipher from http://practicalcryptography.com/ciphers/simple-substitution-cipher/:
+The simple substitution cipher basically consists of substituting every plaintext character for a different ciphertext character.  The following is an example of one possible cipher from [http://practicalcryptography.com/ciphers/simple-substitution-cipher/](http://practicalcryptography.com/ciphers/simple-substitution-cipher/):
 
 * Plain alphabet : abcdefghijklmnopqrstuvwxyz
 * cipher alphabet: phqgiumeaylnofdxjkrcvstzwb
@@ -325,7 +329,7 @@ def matching_pairs(data_list):
 
 # Getting Ready for the SQL Assessment
 
-You should be able to write the SQL queries that use `SELECT`, `FROM`, `WHERE`, `CASE` clauses, aggregates,  and `JOIN`s . To check your work, you can run your queries on [w3school's site](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all) ([http://bit.ly/1foSkgu](http://bit.ly/1foSkgu))
+You should be able to write the SQL queries that use `SELECT`, `FROM`, `WHERE`, `CASE` clauses, aggregates,  and `JOIN`s . To check your work, you can run your queries on [w3school's site](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all) (http://bit.ly/1foSkgu)
 
 
 ## Our Data

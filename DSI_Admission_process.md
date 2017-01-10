@@ -4,6 +4,10 @@ author: Galvanize Inc.
 geometry: margin=0.8in
 header-includes:
     - \usepackage{graphicx}
+    - \usepackage{hyperref}
+    - \usepackage{color}
+    - \definecolor{darkblue}{rgb}{0.0,0.0,0.5}
+    - \hypersetup{colorlinks=true, linkcolor=darkblue, urlcolor=darkblue}
 include-before:
     \begin{center} \includegraphics[width=3.5cm]{imgs/logo.png} \end{center}
 ---

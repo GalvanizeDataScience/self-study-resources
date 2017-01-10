@@ -2,20 +2,16 @@
 
 This document is an easily sharable way of pointing potential students to study resources.  
 
-The `DSI_study_resources.md` can be converted to a nice looking PDF via [pandoc](http://pandoc.org/) (`brew install pandoc`) with the following command:
+Compiling the markdown files to PDF requires the use of [pandoc](http://pandoc.org/) (`brew install pandoc`) and [minted](https://github.com/gpoore/minted).
+
+To compile a specific document (e.g. `DSI_Study_Resources.md`), simply run:
 
 ```
-pandoc -s -o DSI-Study-Resources.pdf --table-of-contents DSI_study_resources.md
+$ ./compile.sh DSI_Study_Resources.md
 ```
 
-The `DSI_admission_process.md` can be converted to a PDF via the following command:
+To compile all markdown file at once, simply run:
 
 ```
-pandoc -s -o DSI-Admission-Process.pdf DSI_admission_process.md
-```
-
-The `DSI_self_assessment.md` can be converted to a PDF via the following command:
-
-```
-pandoc -s -o DSI-Self-Assessment.pdf --table-of-contents DSI_self_assessment.md
+$ ./compile.sh
 ```

@@ -123,7 +123,7 @@ There are excellent exercises mentioned in the resources above. Should you wish 
 
 To go beyond the call of duty, and make sure you are in great shape for the program, work your way through chapters 1-4 of [an Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Sixth%20Printing.pdf) (http://bit.ly/1Wma81Z). You could also enroll in [this Stanford online course](https://www.coursera.org/learn/machine-learning) (http://bit.ly/1IXp8Lg) or find the same material in this [Introduction to Machine Learning course](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) (http://bit.ly/2bp2YJX).
 
-Want to practice on some mock challenges? Checkout the math challenges of the self assessment document.
+<!-- Want to practice on some mock challenges? Checkout the math challenges of the self assessment document. -->
 
 ---
 

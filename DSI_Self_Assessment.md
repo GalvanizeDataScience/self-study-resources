@@ -10,6 +10,10 @@ header-includes:
     - \usepackage{hyperref}
     - \usepackage{color}
     - \definecolor{darkblue}{rgb}{0.0,0.0,0.5}
+    - \definecolor{ivory}{rgb}{0.9333,0.9333,0.8784}
+    - \definecolor{beige}{rgb}{0.9608,0.9608,0.8627}
+    - \definecolor{shadecolor}{rgb}{0.9,0.9,0.9}
+    - \newminted{python}{linenos, frame=lines, framesep=8pt, bgcolor=shadecolor}
     - \hypersetup{colorlinks=true, linkcolor=darkblue, urlcolor=darkblue}
 include-before:
     \begin{center} \includegraphics[width=4cm]{imgs/logo.png} \end{center}
@@ -138,25 +142,31 @@ Functions, blocks of reusable code, keep your code modular, well organized and e
 
 1. We want a function that takes a list of numbers and returns that list where 10 was added to each number.
 
-\begin{minted}[linenos]{python}
+
+
+\begin{pythoncode}
 list_num = [1,2,3]
 list_add_10 = []
 for num in list_num:
     list_add_10.append(num + 10)
 print list_add_10
-\end{minted}
+\end{pythoncode}
 
----
+
 
 2. We want a function that takes in a list of strings and returns the list with the length of the words.
 
-\begin{minted}[linenos]{python}
+
+
+\begin{pythoncode}
 list_words = ['great', 'job', 'so', 'far']
 list_length_words = []
 for word in list_words:
     list_length_words.append(len(word))
 print list_length_words
-\end{minted}
+\end{pythoncode}
+
+
 
 # More Advanced Python Challenges
 
@@ -166,7 +176,7 @@ Practice, practice, practice: we encourage you to work through these challenges.
 
 Write a function that looks at the number of times given letters appear in a document. The output should be in a dictionary.
 
-\begin{minted}[linenos]{python}
+\begin{pythoncode}
 def letter_counter(path_to_file, letters_to_count):
     ''' Returns the number of times specified letters appear in a file
 
@@ -193,15 +203,14 @@ def letter_counter(path_to_file, letters_to_count):
     {'i': 4, 'e':4, 'o':2, 'u':1}
     '''
     pass
-\end{minted}
+\end{pythoncode}
 
----
 
 ## Challenge 2
 
 Write a function that removes one occurrence of a given item from a list. Do not use methods `.pop()` or `.remove()`! If the item is not present in the list, output should be 'The item is not in the list'.
 
-\begin{minted}[linenos]{python}
+\begin{pythoncode}
 def remove_item(list_items, item_to_remove):
     ''' Remove first occurrence of item from list
 
@@ -225,9 +234,8 @@ def remove_item(list_items, item_to_remove):
     [1,3,8,0]
     '''
     pass
-\end{minted}
+\end{pythoncode}
 
----
 
 ## Challenge 3
 
@@ -236,7 +244,7 @@ The simple substitution cipher basically consists of substituting every plaintex
 * Plain alphabet : abcdefghijklmnopqrstuvwxyz
 * cipher alphabet: phqgiumeaylnofdxjkrcvstzwb
 
-\begin{minted}[linenos]{python}
+\begin{pythoncode}
 def cipher(text, cipher_alphabet, option='encipher'):
     ''' Run text through a particular cipher alphabet
 
@@ -255,18 +263,19 @@ def cipher(text, cipher_alphabet, option='encipher'):
     cipher text by default,
     plain text if option is set to decipher
 
+    >>> d = dict(zip('abcdefghijklmnopqrstuvwxyz',
+                     'phqgiumeaylnofdxjkrcvstzwb'))
     >>> cipher('defend the east wall of the castle',
-              'phqgiumeaylnofdxjkrcvstzwb')
+               d)
     'giuifg cei iprc tpnn du cei qprcni'
     >>> cipher('giuifg cei iprc tpnn du cei qprcni',
-                'phqgiumeaylnofdxjkrcvstzwb',
-                option='decopher')
+               d,
+               option='decopher')
     'defend the east wall of the castle'
     '''
     pass
-\end{minted}
+\end{pythoncode}
 
----
 
 ## Challenge 4
 
@@ -275,7 +284,7 @@ Implement a function that counts the number of isograms in a list of strings.
 * An isogram is a word that has no repeating letters, consecutive or non-consecutive.
 * Assume the empty string is an isogram and that the function should be case insensitive.
 
-\begin{minted}[linenos]{python}
+\begin{pythoncode}
 def count_isograms(list_of_words):
     ''' Count the number of strings without repeating characters in a list
 
@@ -291,9 +300,8 @@ def count_isograms(list_of_words):
     1
     '''
     pass
-\end{minted}
+\end{pythoncode}
 
----
 
 ## Challenge 5
 
@@ -304,7 +312,7 @@ Write a function that returns a list of matching items.  Items are defined by a 
 
 (1,2) contains the same information as (2,1), the output list should only contain one of them.
 
-\begin{minted}[linenos]{python}
+\begin{pythoncode}
 def matching_pairs(data_list):
     '''
     Parameters
@@ -321,10 +329,7 @@ def matching_pairs(data_list):
     [(0,4), (1,2), (3,4)]
     '''
     pass
-
-\end{minted}
-
----
+\end{pythoncode}
 
 
 # Getting Ready for the SQL Assessment

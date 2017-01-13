@@ -1,7 +1,7 @@
 ---
 title: Data Science Self-Assessment
 author: Galvanize Inc.
-geometry: margin=1.25in
+geometry: margin=1in
 toc: true
 header-includes:
     - \usepackage{graphicx}
@@ -167,6 +167,7 @@ print list_length_words
 \end{pythoncode}
 
 
+\newpage
 
 # More Advanced Python Challenges
 
@@ -205,7 +206,7 @@ def letter_counter(path_to_file, letters_to_count):
     pass
 \end{pythoncode}
 
-
+\newpage
 ## Challenge 2
 
 Write a function that removes one occurrence of a given item from a list. Do not use methods `.pop()` or `.remove()`! If the item is not present in the list, output should be 'The item is not in the list'.
@@ -236,7 +237,7 @@ def remove_item(list_items, item_to_remove):
     pass
 \end{pythoncode}
 
-
+\newpage
 ## Challenge 3
 
 The simple substitution cipher basically consists of substituting every plaintext character for a different ciphertext character.  The following is an example of one possible cipher from [http://practicalcryptography.com/ciphers/simple-substitution-cipher/](http://practicalcryptography.com/ciphers/simple-substitution-cipher/):
@@ -276,7 +277,7 @@ def cipher(text, cipher_alphabet, option='encipher'):
     pass
 \end{pythoncode}
 
-
+\newpage
 ## Challenge 4
 
 Implement a function that counts the number of isograms in a list of strings.
@@ -331,6 +332,7 @@ def matching_pairs(data_list):
     pass
 \end{pythoncode}
 
+\newpage
 
 # Getting Ready for the SQL Assessment
 

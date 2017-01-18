@@ -3,6 +3,7 @@ title: Data Science Self-Assessment
 author: Galvanize Inc.
 geometry: margin=1in
 toc: true
+toc-depth: 2
 header-includes:
     - \usepackage{graphicx}
     - \usepackage{minted}
@@ -15,6 +16,8 @@ header-includes:
     - \definecolor{shadecolor}{rgb}{0.9,0.9,0.9}
     - \newminted{python}{linenos, frame=lines, framesep=8pt, bgcolor=shadecolor}
     - \hypersetup{colorlinks=true, linkcolor=darkblue, urlcolor=darkblue}
+    - \usepackage{tocloft}
+    - \renewcommand\cftsecafterpnum{\vskip10pt}
 include-before:
     \begin{center} \includegraphics[width=4cm]{imgs/logo.png} \end{center}
 ---
@@ -23,9 +26,10 @@ include-before:
 
 # How to Use This Document
 
-This document is designed to give you an idea of the baseline of Python and SQL knowledge required to apply for the Data Science Immersive program.  If understanding any of the scripts included in this PDF is challenging, we encourage you to take the time to study Python and/or SQL before beginning the application process.  For a list of free Python and SQL resources, please refer to the [DSI Study Resources PDF](https://github.com/zipfian/self-study-resources/blob/master/DSI_Study_Resources.pdf).
+This document is designed to give you an idea of the baseline of Python, SQL and probability/statistics knowledge required to apply for the Data Science Immersive program.  If understanding any of the scripts included in this PDF is challenging, we encourage you to take the time to study Python and/or SQL and/or probability/statistics before beginning the application process.  For a list of free Python, SQL and probability/statistics resources, please refer to the [DSI Study Resources PDF](https://github.com/zipfian/self-study-resources/blob/master/DSI_Study_Resources.pdf).
 
-This document starts with some simple python statements which you should be able to evaluate without actually executing. We then proceed to more advanced challenges that will require a solid understanding of strings, lists, sets, dictionaries, file I/O, and functions.  We then end the self assessment with a variety of SQL statements you should be comfortable with.
+This document starts with some simple python statements which you should be able to evaluate without actually executing. We then proceed to more advanced challenges that will require a solid understanding of strings, lists, sets, dictionaries, file I/O, and functions.  We then continue the self assessment with a variety of SQL statements you should be comfortable with. We end the document with probability/statistics exercises that cover counting (permutations, combinations),
+probability (conditional probability, Bayes’ Theorem), probability distribution for discrete and continuous random variables, descriptive and inferential statistics as well as basic linear regression.
 
 ---
 
@@ -93,7 +97,9 @@ def my_function2(my_list):
 print my_function2(['cat', 'bad', 'dad'])
 \end{minted}
 
----
+\end{multicols}
+\newpage
+\begin{multicols}{2}
 
 \begin{minted}[linenos, fontsize=\footnotesize]{python}
 # Script 3
@@ -111,27 +117,41 @@ print my_function3(['cat', 'bad', 'dad'])
 \begin{minted}[linenos, fontsize=\footnotesize]{python}
 # Script 4
 def my_function4(my_list):
+    for item in my_list:
+        output = []
+        output.append(item)
+    return output
+
+print my_function4(['cat', 'bad', 'dad'])
+\end{minted}
+\end{multicols}
+
+\begin{multicols}{2}
+
+\begin{minted}[linenos, fontsize=\footnotesize]{python}
+# Script 5
+def my_function5(my_list):
     output = []
     for item in my_list:
         output.append(item)
     return output
 
-print my_function4(['cat', 'bad', 'dad'])
-print my_function4(['cat', 'bad', 'dad'])
+print my_function5(['cat', 'bad', 'dad'])
+print my_function5(['cat', 'bad', 'dad'])
 \end{minted}
 
 ---
 
 \begin{minted}[linenos, fontsize=\footnotesize]{python}
-# Script 5
+# Script 6
 output = []
-def my_function5(my_list):
+def my_function6(my_list):
     for item in my_list:
         output.append(item)
     return output
 
-print my_function5(['cat', 'bad', 'dad'])
-print my_function5(['cat', 'bad', 'dad'])
+print my_function6(['cat', 'bad', 'dad'])
+print my_function6(['cat', 'bad', 'dad'])
 \end{minted}
 
 \end{multicols}
@@ -402,3 +422,274 @@ Aggregates include commands such as `DISTINCT`, `COUNT`, `SUM`, `GROUP BY`, `HAV
 2. Use `JOIN` and `WHERE` to display the continents associated to the flags in the flags table when the flag has a name (i.e. not 'NA').
 
 3. Use `JOIN` and `HAVING` to display continents that have at least 2 countries represented as well as the average adoption date of the flag (as `avg_date`).
+
+\newpage
+
+# Practice some probability and statistics
+
+Here is a small selection of exercises to make sure you know how to apply your knowledge in statistics, probability and simple regression. If you want to practice some more, or to practice on exercises with a solution, checkout the links in each section. They come from the recommended resources ([Khan Academy](https://www.khanacademy.org/math/statistics-probability), [Udacity](https://www.udacity.com/course/intro-to-statistics--st101) and the probability review).
+
+**Table of content**
+  - Counting: permutations, combinations
+
+  - Probability: Probability of an event, Probability of 2 or more events (Conditional probability, Independent and dependent events, Mutually exclusive events, Bayes’ Theorem)
+
+  - Probability distribution (Binomial, Geometric and Poisson distributions for discrete random variables, Uniform, Normal and Exponential distributions for continuous random variables)
+
+  - Descriptive Statistics: mean, variance, standard deviation, range, IQR
+
+  - Inferential Statistics: confidence intervals, hypothesis testing, inference for proportions and means
+
+  - Linear regression: model performance, interpretation of coefficients, underfitting/overfitting
+
+NB: some exercises are labeled as *extra credit*, and as such are not mandatory.
+
+## Counting: permutations, combinations
+
+### 1. Permutations
+
+  1. How many ways can you arrange the numbers 1, 2, 3, 4 and 5?
+
+  2. How many ways can you arrange 1, 1, 2, 3, 4?
+
+  3. How many ways can you arrange two 3s and three 5s?
+
+some links: http://bit.ly/2iGgrir, http://bit.ly/2jXtFIt
+
+
+### 2. Combinations
+
+  1. How many different poker hands (5 cards) can you have? A deck holds 52 cards.
+
+  2. There are five flavors of ice cream: Stracciatella, Mint chocolate chip, Cookies and Cream, Butter Pecan, Pistachio and Pralines and cream. How many three scoop ice-creams can you make if all the scoops must be different flavors?
+
+  *For extra credit*: what happens if you can take several scoops of the same flavor?
+
+some links: http://bit.ly/2iNIXSF, http://bit.ly/2jXlDiI
+
+
+## Probability
+
+### 1. Probability of an event
+
+  1. In a deck of cards (52 cards), what's the probability of picking a queen? a heart? Of picking a card that's not a queen nor a heart?
+
+  2. If I do not replace the cards, what is the probability of picking 2 kings? 4 diamonds? How do these probabilities evolve if I replace the cards after each draw?
+
+some links: http://bit.ly/2iNCwyS, http://bit.ly/OtSNH2, http://bit.ly/2j7R4qF
+
+
+### 2. Probability of 2 or more events
+
+#### Conditional probability
+
+  1. What is the probability that the total of two dice is less than four, knowing that the first die is a 2?
+
+  2. 90% of candidates to a Web developer position can code both in Javascript and HTML. 70% of these candidates can code in Javascript and 50% can code in HTML. What is the probability that a candidate can code in HTML knowing that he can code in Javascript?
+
+some links: http://bit.ly/2iGktHi
+
+
+#### Independent and dependent events
+
+  1. Number of kids dressed as pumpkins vs ghost that obtained a certain number of pieces of candy on Halloween night for a kid dressed up as a pumpkin
+
+    | Number of candy | less than 10 | from 10 to 20 | from 20 to 30 | more than 30 |
+    | :-------------: | :----------: | :-----------: | :-----------: | :----------: |
+    | Pumpkins        |   5          |     10        |  60           | 25           |
+    | Ghosts          |   15         |     40        |  80           | 15           |
+
+    - What is the probability that a kid dressed as a pumpkin gets 20 or more pieces of candy? How about if he dresses as a ghost?
+    - What is the probability that a kid obtains less than 10 pieces of candy?
+    - What is the probability that two siblings, one dressed as a ghost and one dressed as a pumpkin, each receive 20 to 30 pieces of candy?
+
+  2. You toss a fair die twice. What is the probability of getting less than 3 on the first toss and an even number on the second?
+
+some links: http://bit.ly/2jmalpl
+
+
+#### Mutually exclusive events
+
+  Let's consider a population from which we draw a sample of 40 individuals. You know that the probability of not obtaining anyone wearing glasses in the sample in 26%. The probability of having only one individual wearing glasses is 32%. What is the probability of
+
+  (a) obtaining not more than one individual wearing glasses in a sample?
+
+  (b) obtaining more than one individual wearing glasses in a sample?
+
+some links: http://bit.ly/2jmjyxO
+
+
+#### Bayes’ Theorem
+
+  1. To detect a medical condition, patients are given two tests. 25% of the patients receive positive results on both tests and 42% of the patients receive positive results on the first test. What percent of those who have positive results on the first test passed also had positive result on the second test?
+
+  2. Extra Credit:
+  A jar contains red and blue marbles. You draw two marbles one after the other without replacing the first marble in the jar. You know that:
+
+  - The probability of selecting a blue marble and then a red marble is 30%.
+  - The probability of selecting a red marble on the first draw is 50%.
+
+  You first draw a red marble. What is the probability of selecting a blue marble on the second draw?
+
+some links: http://bit.ly/2jmjHRS
+
+
+## Probability distributions Problems
+
+  Common problems relying on discrete (Binomial, Geometric, Poisson) or continuous (Uniform, Normal, Exponential) probability distributions.
+
+Here are some [exercises](http://bit.ly/2j7GK25) with their solutions as video.
+
+
+#### Binomial distribution
+
+  1. Fair coin: Imagine you were to flip a fair coin 10 times. What would be the probability of getting 5 heads?
+
+  2. Unfair coin: You have a coin with which you are 2 times more likely to get heads than tails. You flip the coin 100 times. What is the probability of getting 20 tails? What is the probability of getting at least one heads?
+
+#### Geometric distributions
+
+  Suppose you have an unfair coin, with a 68 % chance of getting tails. What is the probability that the first head will be on the 3rd trial?
+
+#### Poisson distribution
+
+  There are on average 20 taxis that drive past your office every 30 minutes. What is the probability that 30 taxis will drive by in 1 hour?
+
+#### Exponential distribution
+
+  Let X, the number of years a computer works, be a random variable that follows an exponential distribution with a lambda of 3 years. You just bought a computer, what is the probability that the computer will work in 8 years?
+
+  *extra credit*: Let X be a random variable that now follows an exponential distribution with a half-life of 6 years. Find the parameter of the exponential distribution. What is the probability
+  P(X > 10) and the conditional probability P(X > 20 | X > 10)?
+
+#### Uniform distribution
+
+  Let the random variable X be the angle of a slice of pizza. The angle X has a uniform distribution on the interval [0,90]. What is the probability that your slice of pizza will have an angle between 30 and 40°?
+
+  *extra credit*: X is uniform on the interval [a,b], can you derive the expected value E(X)? the variance V(X)?
+
+#### Normal distribution
+
+  1. Suppose X has a standard normal distribution. Compute P(X > 9), P(1< X < 3) and P(X > -3).
+
+  2. The weight in pounds of individuals in a population of interest has a normal distribution, with a mean of 150 and a standard deviation of 40. What is the expected range of values that describe the weight of 68% of the population (Hint: use the empirical rule)? Of the people who weigh more than 170 pounds, what percent weigh more than 200 pounds (Hint: this is conditional probability)?
+
+## Descriptive Statistics
+
+### 3 Ms
+
+  Give the mean, median and mode of the following data:
+
+  (20,45, 68, 900, 57, 45, 33, 35, 45, 22)
+
+  Do you think the mean is a good summary statistic? Why or why not?
+
+### Variance, Range, IQR
+
+  Give the mean, the variance, the standard deviation, the range and the interquartile of range of the following data:
+
+  (20,45, 68, 900, 57, 45, 33, 35, 45, 22)
+
+### Discrete random variables
+
+  Give the expression of the mean and the variance for a discrete random variable X.
+
+### Continuous random variables
+
+  Give the expression of the mean and the variance for a continuous random variable X.
+
+## Inferential Statistics
+
+### 1. Confidence intervals
+
+  1. We are polling to get approval rate of a president. Out of a population of 4 million, 6014 were surveyed and 3485 expressed their approval. Construct a 95% confidence interval for the approval rate of the president.
+
+  2. The weight of a random sample of 100 individuals from a population of interest was surveyed and yielded a sample average weight of 150 pounds and sample standard deviation of 20 pounds. Construct a 95% confidence interval for the average weight of the population.
+
+### 2. General hypothesis testing
+
+  1. What is the definition of a significance level? of a p-value?
+
+  2. Would you use a one tailed or two tailed tests in the following cases:
+     - investigating if women are paid less than men.
+     - comparing the click-through rate of website when the 'subscribe' button is green vs when it is blue.
+
+  3. A man goes to trial. In a hypothesis testing framework, let's define the null hypothesis as *Not Guilty* and the alternative hypothesis as *Guilty*.
+    - What type of error is made when the man is actually not guilty but verdict returned is guilty?
+    - What type of error is made when the man is actually guilty but verdict returned is not guilty?
+
+### 3. One sample hypothesis testing
+
+  1. We want the test the hypothesis that at least 68% of the Canadian population (aged 18+) went to the movies at least once in the past 12 months with a significance leval of 5%. We surveyed 4,000 respondents and found 3,012 did go at least once to the movies in the past 12 months. How would your conclusion compare if you only had 40 respondents, 30 of which went to the movies at least once in the past 12 months
+
+some links: http://bit.ly/2jIM1h3
+
+  2. We want to test the hypothesis that the average weight in North America is at least 175 pounds. The mean of weights of the 100 individuals sampled is 178 pounds, with a sample standard deviation of 8 pounds. What are you conclusions?
+
+some links: http://bit.ly/2jmht5d
+
+  3. We want to investigate the claim that on average, sea turtles lay 110 eggs in a nest. Volunteers have gone out and counted the number of eggs in 20 nest. What do you conclude?
+
+  * data: 101, 120, 154, 89, 97, 132, 126, 105, 94, 111, 98, 90, 88, 115, 99, 85, 131, 127, 116
+
+some links: http://bit.ly/2j7KpN2
+
+### 3. Two sample hypothesis testing
+
+  1. Is there a meaningful difference between the proportion of teenagers vs that of adults that go to the movies at least once per month?
+  * Data:
+    - 1000 teenagers are surveyed, 780 answer positively.
+    - 1000 adults are surveyed, 620 answer positively.
+
+some links: http://bit.ly/2j7GUXg
+
+  2. Is there a meaningful difference between the average wingspan of bald eagles vs that of crowned eagles?
+  * data for bald eagles (in ft):
+    [7.4, 7.7, 6.0, 6.7, 8.3, 6.5, 6.9, 7.7, 7.8, 7.3, 6.9, 6.5, 6.3, 4.8, 8.0, 6.8, 5.8, 6.9, 6.3, 6.3, 6.4, 5.1, 6.9, 7.6, 5.6, 6.5, 6.7, 7.8, 6.6, 6.9, 7.0, 6.4, 7.4, 6.0, 7.0, 5.3, 5.8, 6.4, 7.1, 5.5, 7.0, 6.7, 5.8, 6.1, 7.1, 7.9, 7.7, 6.2, 5.3, 6.4, 6.9, 5.9, 7.8, 5.6, 5.0, 5.5, 6.4, 7.1, 8.6, 9.3, 6.8, 7.6, 7.2, 7.1, 5.8, 5.9, 5.1, 6.6, 6.8, 5.7, 6.3, 7.3, 6.3, 7.2, 7.7, 6.0, 7.2, 5.9, 7.2, 7.0, 7.4, 6.5, 7.8, 5.9, 6.3, 6.3, 8.3, 5.9, 6.9, 7.8]
+  * data for crowned eagles (in ft):
+    [5.3, 5.6, 5.8, 5.3, 5.6, 4.9, 5.7, 5.4, 5.8, 5.4, 6.0, 5.4, 5.1, 5.4, 5.2, 5.7, 4.8, 5.8, 5.7, 5.1, 5.3, 5.4, 5.7, 6.6, 5.0, 5.4, 5.3, 5.5, 5.2, 5.6, 5.2, 5.9, 5.7, 5.8, 5.5, 5.2, 4.0, 5.8, 5.2, 6.2, 5.4, 4.6, 5.3, 5.8, 6.3, 4.8, 5.6, 5.4, 5.2, 5.4, 5.1, 6.0, 6.1, 5.4, 5.4, 5.3, 5.0, 6.0, 5.0, 5.8, 5.1, 5.3, 4.8, 5.6, 5.7, 6.1, 5.0, 6.4, 5.1, 4.6, 5.3, 6.0, 4.8, 5.4, 4.3, 5.4, 5.1, 4.7, 6.0, 5.5, 5.4, 5.6, 5.2, 5.8, 5.3, 4.9, 5.3, 5.5, 5.7, 4.7, 6.0, 5.6, 4.9, 5.4, 4.3, 5.5, 4.9, 5.3, 5.6, 6.0]
+
+some links: http://bit.ly/2jva7OY
+
+## Relationship between two quantitative variables
+
+  1. Dataset
+
+    | x      | 0      | 1      | 2      | 3      | 5      |
+    | :----: | :----: | :----: | :----: | :----: | :----: |  
+    | y      | 1      |   2.1  |  3.2   |  4     |  6.1   |
+
+    (a) Plot corresponding the scatter plot.
+
+    (b) Find the least square regression line y = ax + b. Add it to your plot.
+
+    (c) Estimate the value of y when x = 4.
+
+  *Extra credit*: Can you do these steps in Python?
+
+  2. Dataset
+
+    | x     | 0     | 1     | 2     | 3     | 4     | 7     | 9     | 11    | 30    |
+    | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+    | y     | 2.    |   4.9 |   8.  |  10.8 |  13.9 | 23.1  |  29.  |  35.  |  92.1 |
+
+    (a) Find the least square regression line for the given data points.
+
+    (b) Plot the given points and the regression line on the same graph.
+
+  3. We have the following (x,y) points:
+    [(0, 42.0), (1, -101.0), (2, 21.0), (3, -38.0), (4, 5.0), (7, 20.0), (9, 293.0), (11, 266.0), (15, 625.0), (20, 1266.0), (25, 1757.0), (30, 2844.0)]
+
+    (a) Plot the data.
+
+    (b) How do you think a linear model would perform? How about a 100 degree polynomial model?  How would you figure out which of these models was preferable?
+
+    (c) How would you model the relationship between these features?
+
+  4. We have a dataset that gives the height and age of a sample of people. The range of age spans from 1 to 60 years. We decide to compute the correlation coefficient to model to understand the relationship between these features.
+
+    (a) Do you expect the correlation coefficient to be positive or negative?
+
+    (b) What are some of the limitation of this approach?
+
+some links: http://bit.ly/2jXyDF6, http://bit.ly/2jqXuRp, http://bit.ly/2jxlCFA

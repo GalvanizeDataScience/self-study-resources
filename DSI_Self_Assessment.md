@@ -356,7 +356,7 @@ def matching_pairs(data_list):
 
 # Getting Ready for the SQL Assessment
 
-You should be able to write the SQL queries that use `SELECT`, `FROM`, `WHERE`, `CASE` clauses, aggregates,  and `JOIN`s . To check your work, you can run your queries on [w3school's site](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all) (http://bit.ly/1foSkgu)
+You should be able to write the SQL queries that use `SELECT`, `FROM`, `WHERE`, `CASE` clauses, aggregates,  and `JOIN`s . To check your work, you can run your queries on [w3school's site](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all) (http://bit.ly/1foSkgu).
 
 
 ## Our Data
@@ -454,7 +454,7 @@ NB: some exercises are labeled as *extra credit*, and as such are not mandatory.
 
   3. How many ways can you arrange two 3s and three 5s?
 
-some links: http://bit.ly/2iGgrir, http://bit.ly/2jXtFIt
+Some links: [http://bit.ly/2iGgrir](http://bit.ly/2iGgrir), [http://bit.ly/2jXtFIt](http://bit.ly/2jXtFIt)
 
 
 ### 2. Combinations
@@ -465,18 +465,18 @@ some links: http://bit.ly/2iGgrir, http://bit.ly/2jXtFIt
 
   *For extra credit*: what happens if you can take several scoops of the same flavor?
 
-some links: http://bit.ly/2iNIXSF, http://bit.ly/2jXlDiI
+Some links: [http://bit.ly/2iNIXSF](http://bit.ly/2iNIXSF), [http://bit.ly/2jXlDiI](http://bit.ly/2jXlDiI)
 
 
 ## Probability
 
 ### 1. Probability of an event
 
-  1. In a deck of cards (52 cards), what's the probability of picking a queen? a heart? Of picking a card that's not a queen nor a heart?
+  1. In a deck of cards (52 cards), what's the probability of picking a queen? A heart? Of picking a card that's not a queen nor a heart?
 
   2. If I do not replace the cards, what is the probability of picking 2 kings? 4 diamonds? How do these probabilities evolve if I replace the cards after each draw?
 
-some links: http://bit.ly/2iNCwyS, http://bit.ly/OtSNH2, http://bit.ly/2j7R4qF
+Some links: [http://bit.ly/2iNCwyS](http://bit.ly/2iNCwyS), [http://bit.ly/OtSNH2](http://bit.ly/OtSNH2), [http://bit.ly/2j7R4qF](http://bit.ly/2j7R4qF)
 
 
 ### 2. Probability of 2 or more events
@@ -487,7 +487,7 @@ some links: http://bit.ly/2iNCwyS, http://bit.ly/OtSNH2, http://bit.ly/2j7R4qF
 
   2. 90% of candidates to a Web developer position can code both in Javascript and HTML. 70% of these candidates can code in Javascript and 50% can code in HTML. What is the probability that a candidate can code in HTML knowing that he can code in Javascript?
 
-some links: http://bit.ly/2iGktHi
+Some links: [http://bit.ly/2iGktHi](http://bit.ly/2iGktHi)
 
 
 #### Independent and dependent events
@@ -505,7 +505,7 @@ some links: http://bit.ly/2iGktHi
 
   2. You toss a fair die twice. What is the probability of getting less than 3 on the first toss and an even number on the second?
 
-some links: http://bit.ly/2jmalpl
+Some links: [http://bit.ly/2jmalpl](http://bit.ly/2jmalpl)
 
 
 #### Mutually exclusive events
@@ -516,7 +516,7 @@ some links: http://bit.ly/2jmalpl
 
   (b) obtaining more than one individual wearing glasses in a sample?
 
-some links: http://bit.ly/2jmjyxO
+Some links: [http://bit.ly/2jmjyxO](http://bit.ly/2jmjyxO)
 
 
 #### Bayes’ Theorem
@@ -531,14 +531,14 @@ some links: http://bit.ly/2jmjyxO
 
   You first draw a red marble. What is the probability of selecting a blue marble on the second draw?
 
-some links: http://bit.ly/2jmjHRS
+Some links: [http://bit.ly/2jmjHRS](http://bit.ly/2jmjyxO)
 
 
 ## Probability distributions Problems
 
   Common problems relying on discrete (Binomial, Geometric, Poisson) or continuous (Uniform, Normal, Exponential) probability distributions.
 
-Here are some [exercises](http://bit.ly/2j7GK25) with their solutions as video.
+Here are some [exercises](http://bit.ly/2j7GK25) (http://bit.ly/2j7GK25) with their solutions as video.
 
 
 #### Binomial distribution
@@ -549,7 +549,7 @@ Here are some [exercises](http://bit.ly/2j7GK25) with their solutions as video.
 
 #### Geometric distributions
 
-  Suppose you have an unfair coin, with a 68 % chance of getting tails. What is the probability that the first head will be on the 3rd trial?
+  Suppose you have an unfair coin, with a 68% chance of getting tails. What is the probability that the first head will be on the 3rd trial?
 
 #### Poisson distribution
 
@@ -557,30 +557,30 @@ Here are some [exercises](http://bit.ly/2j7GK25) with their solutions as video.
 
 #### Exponential distribution
 
-  Let X, the number of years a computer works, be a random variable that follows an exponential distribution with a lambda of 3 years. You just bought a computer, what is the probability that the computer will work in 8 years?
+  Let $X$, the number of years a computer works, be a random variable that follows an exponential distribution with a lambda of 3 years. You just bought a computer, what is the probability that the computer will work in 8 years?
 
-  *extra credit*: Let X be a random variable that now follows an exponential distribution with a half-life of 6 years. Find the parameter of the exponential distribution. What is the probability
-  P(X > 10) and the conditional probability P(X > 20 | X > 10)?
+  *extra credit*: Let $X$ be a random variable that now follows an exponential distribution with a half-life of 6 years. Find the parameter of the exponential distribution. What is the probability
+  $P(X > 10)$ and the conditional probability $P(X > 20 | X > 10)$?
 
 #### Uniform distribution
 
-  Let the random variable X be the angle of a slice of pizza. The angle X has a uniform distribution on the interval [0,90]. What is the probability that your slice of pizza will have an angle between 30 and 40°?
+  Let the random variable $X$ be the angle of a slice of pizza. The angle $X$ has a uniform distribution on the interval $[0, 90]$. What is the probability that your slice of pizza will have an angle between 30 and 40°?
 
-  *extra credit*: X is uniform on the interval [a,b], can you derive the expected value E(X)? the variance V(X)?
+  *extra credit*: $X$ is uniform on the interval $[a, b]$, can you derive the expected value $E(X)$? The variance $V(X)$?
 
 #### Normal distribution
 
-  1. Suppose X has a standard normal distribution. Compute P(X > 9), P(1< X < 3) and P(X > -3).
+  1. Suppose $X$ has a standard normal distribution. Compute $P(X > 9)$, $P(1< X < 3)$ and $P(X > -3)$.
 
   2. The weight in pounds of individuals in a population of interest has a normal distribution, with a mean of 150 and a standard deviation of 40. What is the expected range of values that describe the weight of 68% of the population (Hint: use the empirical rule)? Of the people who weigh more than 170 pounds, what percent weigh more than 200 pounds (Hint: this is conditional probability)?
 
 ## Descriptive Statistics
 
-### 3 Ms
+### 3 Measures of Average
 
   Give the mean, median and mode of the following data:
 
-  (20,45, 68, 900, 57, 45, 33, 35, 45, 22)
+  `(20, 45, 68, 900, 57, 45, 33, 35, 45, 22)`
 
   Do you think the mean is a good summary statistic? Why or why not?
 
@@ -588,15 +588,15 @@ Here are some [exercises](http://bit.ly/2j7GK25) with their solutions as video.
 
   Give the mean, the variance, the standard deviation, the range and the interquartile of range of the following data:
 
-  (20,45, 68, 900, 57, 45, 33, 35, 45, 22)
+  `(20, 45, 68, 900, 57, 45, 33, 35, 45, 22)`
 
 ### Discrete random variables
 
-  Give the expression of the mean and the variance for a discrete random variable X.
+  Give the expression of the mean and the variance for a discrete random variable $X$.
 
 ### Continuous random variables
 
-  Give the expression of the mean and the variance for a continuous random variable X.
+  Give the expression of the mean and the variance for a continuous random variable $X$.
 
 ## Inferential Statistics
 
@@ -608,11 +608,11 @@ Here are some [exercises](http://bit.ly/2j7GK25) with their solutions as video.
 
 ### 2. General hypothesis testing
 
-  1. What is the definition of a significance level? of a p-value?
+  1. What is the definition of a significance level? Of a p-value?
 
   2. Would you use a one tailed or two tailed tests in the following cases:
-     - investigating if women are paid less than men.
-     - comparing the click-through rate of website when the 'subscribe' button is green vs when it is blue.
+     - Investigating if women are paid less than men.
+     - Comparing the click-through rate of website when the 'subscribe' button is green vs. when it is blue.
 
   3. A man goes to trial. In a hypothesis testing framework, let's define the null hypothesis as *Not Guilty* and the alternative hypothesis as *Guilty*.
     - What type of error is made when the man is actually not guilty but verdict returned is guilty?
@@ -620,19 +620,19 @@ Here are some [exercises](http://bit.ly/2j7GK25) with their solutions as video.
 
 ### 3. One sample hypothesis testing
 
-  1. We want the test the hypothesis that at least 68% of the Canadian population (aged 18+) went to the movies at least once in the past 12 months with a significance leval of 5%. We surveyed 4,000 respondents and found 3,012 did go at least once to the movies in the past 12 months. How would your conclusion compare if you only had 40 respondents, 30 of which went to the movies at least once in the past 12 months
+  1. We want the test the hypothesis that at least 68% of the Canadian population (aged 18+) went to the movies at least once in the past 12 months with a significance level of 5%. We surveyed 4,000 respondents and found 3,012 did go at least once to the movies in the past 12 months. How would your conclusion compare if you only had 40 respondents, 30 of which went to the movies at least once in the past 12 months
 
-some links: http://bit.ly/2jIM1h3
+Some links: [http://bit.ly/2jIM1h3](http://bit.ly/2jIM1h3)
 
   2. We want to test the hypothesis that the average weight in North America is at least 175 pounds. The mean of weights of the 100 individuals sampled is 178 pounds, with a sample standard deviation of 8 pounds. What are you conclusions?
 
-some links: http://bit.ly/2jmht5d
+Some links: [http://bit.ly/2jmht5d](http://bit.ly/2jmht5d)
 
   3. We want to investigate the claim that on average, sea turtles lay 110 eggs in a nest. Volunteers have gone out and counted the number of eggs in 20 nest. What do you conclude?
 
-  * data: 101, 120, 154, 89, 97, 132, 126, 105, 94, 111, 98, 90, 88, 115, 99, 85, 131, 127, 116
+  * Data: `101, 120, 154, 89, 97, 132, 126, 105, 94, 111, 98, 90, 88, 115, 99, 85, 131, 127, 116`
 
-some links: http://bit.ly/2j7KpN2
+Some links: [http://bit.ly/2j7KpN2](http://bit.ly/2j7KpN2)
 
 ### 3. Two sample hypothesis testing
 
@@ -641,31 +641,35 @@ some links: http://bit.ly/2j7KpN2
     - 1000 teenagers are surveyed, 780 answer positively.
     - 1000 adults are surveyed, 620 answer positively.
 
-some links: http://bit.ly/2j7GUXg
+Some links: [http://bit.ly/2j7GUXg](http://bit.ly/2j7GUXg)
 
   2. Is there a meaningful difference between the average wingspan of bald eagles vs that of crowned eagles?
-  * data for bald eagles (in ft):
-    [7.4, 7.7, 6.0, 6.7, 8.3, 6.5, 6.9, 7.7, 7.8, 7.3, 6.9, 6.5, 6.3, 4.8, 8.0, 6.8, 5.8, 6.9, 6.3, 6.3, 6.4, 5.1, 6.9, 7.6, 5.6, 6.5, 6.7, 7.8, 6.6, 6.9, 7.0, 6.4, 7.4, 6.0, 7.0, 5.3, 5.8, 6.4, 7.1, 5.5, 7.0, 6.7, 5.8, 6.1, 7.1, 7.9, 7.7, 6.2, 5.3, 6.4, 6.9, 5.9, 7.8, 5.6, 5.0, 5.5, 6.4, 7.1, 8.6, 9.3, 6.8, 7.6, 7.2, 7.1, 5.8, 5.9, 5.1, 6.6, 6.8, 5.7, 6.3, 7.3, 6.3, 7.2, 7.7, 6.0, 7.2, 5.9, 7.2, 7.0, 7.4, 6.5, 7.8, 5.9, 6.3, 6.3, 8.3, 5.9, 6.9, 7.8]
-  * data for crowned eagles (in ft):
-    [5.3, 5.6, 5.8, 5.3, 5.6, 4.9, 5.7, 5.4, 5.8, 5.4, 6.0, 5.4, 5.1, 5.4, 5.2, 5.7, 4.8, 5.8, 5.7, 5.1, 5.3, 5.4, 5.7, 6.6, 5.0, 5.4, 5.3, 5.5, 5.2, 5.6, 5.2, 5.9, 5.7, 5.8, 5.5, 5.2, 4.0, 5.8, 5.2, 6.2, 5.4, 4.6, 5.3, 5.8, 6.3, 4.8, 5.6, 5.4, 5.2, 5.4, 5.1, 6.0, 6.1, 5.4, 5.4, 5.3, 5.0, 6.0, 5.0, 5.8, 5.1, 5.3, 4.8, 5.6, 5.7, 6.1, 5.0, 6.4, 5.1, 4.6, 5.3, 6.0, 4.8, 5.4, 4.3, 5.4, 5.1, 4.7, 6.0, 5.5, 5.4, 5.6, 5.2, 5.8, 5.3, 4.9, 5.3, 5.5, 5.7, 4.7, 6.0, 5.6, 4.9, 5.4, 4.3, 5.5, 4.9, 5.3, 5.6, 6.0]
+  * Data for bald eagles (in ft):
 
-some links: http://bit.ly/2jva7OY
+    `[7.4, 7.7, 6.0, 6.7, 8.3, 6.5, 6.9, 7.7, 7.8, 7.3, 6.9, 6.5, 6.3, 4.8, 8.0, 6.8, 5.8, 6.9, 6.3, 6.3, 6.4, 5.1, 6.9, 7.6, 5.6, 6.5, 6.7, 7.8, 6.6, 6.9, 7.0, 6.4, 7.4, 6.0, 7.0, 5.3, 5.8, 6.4, 7.1, 5.5, 7.0, 6.7, 5.8, 6.1, 7.1, 7.9, 7.7, 6.2, 5.3, 6.4, 6.9, 5.9, 7.8, 5.6, 5.0, 5.5, 6.4, 7.1, 8.6, 9.3, 6.8, 7.6, 7.2, 7.1, 5.8, 5.9, 5.1, 6.6, 6.8, 5.7, 6.3, 7.3, 6.3, 7.2, 7.7, 6.0, 7.2, 5.9, 7.2, 7.0, 7.4, 6.5, 7.8, 5.9, 6.3, 6.3, 8.3, 5.9, 6.9, 7.8]`
+
+  * Data for crowned eagles (in ft):
+
+    `[5.3, 5.6, 5.8, 5.3, 5.6, 4.9, 5.7, 5.4, 5.8, 5.4, 6.0, 5.4, 5.1, 5.4, 5.2, 5.7, 4.8, 5.8, 5.7, 5.1, 5.3, 5.4, 5.7, 6.6, 5.0, 5.4, 5.3, 5.5, 5.2, 5.6, 5.2, 5.9, 5.7, 5.8, 5.5, 5.2, 4.0, 5.8, 5.2, 6.2, 5.4, 4.6, 5.3, 5.8, 6.3, 4.8, 5.6, 5.4, 5.2, 5.4, 5.1, 6.0, 6.1, 5.4, 5.4, 5.3, 5.0, 6.0, 5.0, 5.8, 5.1, 5.3, 4.8, 5.6, 5.7, 6.1, 5.0, 6.4, 5.1, 4.6, 5.3, 6.0, 4.8, 5.4, 4.3, 5.4, 5.1, 4.7, 6.0, 5.5, 5.4, 5.6, 5.2, 5.8, 5.3, 4.9, 5.3, 5.5, 5.7, 4.7, 6.0, 5.6, 4.9, 5.4, 4.3, 5.5, 4.9, 5.3, 5.6, 6.0]`
+
+Some links: [http://bit.ly/2jva7OY](http://bit.ly/2jva7OY)
 
 ## Relationship between two quantitative variables
 
   1. Dataset
 
-    | x      | 0      | 1      | 2      | 3      | 5      |
-    | :----: | :----: | :----: | :----: | :----: | :----: |  
-    | y      | 1      |   2.1  |  3.2   |  4     |  6.1   |
+      | x      | 0      | 1      | 2      | 3      | 5      |
+      | :----: | :----: | :----: | :----: | :----: | :----: |  
+      | y      | 1      |   2.1  |  3.2   |  4     |  6.1   |
+
 
     (a) Plot corresponding the scatter plot.
 
-    (b) Find the least square regression line y = ax + b. Add it to your plot.
+    (b) Find the least square regression line $y = ax + b$. Add it to your plot.
 
-    (c) Estimate the value of y when x = 4.
+    (c) Estimate the value of $y$ when $x = 4$.
 
-  *Extra credit*: Can you do these steps in Python?
+    *Extra credit*: Can you do these steps in Python?
 
   2. Dataset
 
@@ -678,7 +682,8 @@ some links: http://bit.ly/2jva7OY
     (b) Plot the given points and the regression line on the same graph.
 
   3. We have the following (x,y) points:
-    [(0, 42.0), (1, -101.0), (2, 21.0), (3, -38.0), (4, 5.0), (7, 20.0), (9, 293.0), (11, 266.0), (15, 625.0), (20, 1266.0), (25, 1757.0), (30, 2844.0)]
+
+    `[(0, 42.0), (1, -101.0), (2, 21.0), (3, -38.0), (4, 5.0), (7, 20.0), (9, 293.0), (11, 266.0), (15, 625.0), (20, 1266.0), (25, 1757.0), (30, 2844.0)]`
 
     (a) Plot the data.
 
@@ -692,4 +697,4 @@ some links: http://bit.ly/2jva7OY
 
     (b) What are some of the limitation of this approach?
 
-some links: http://bit.ly/2jXyDF6, http://bit.ly/2jqXuRp, http://bit.ly/2jxlCFA
+Some links: [http://bit.ly/2jXyDF6](http://bit.ly/2jXyDF6), [http://bit.ly/2jqXuRp](http://bit.ly/2jqXuRp), [http://bit.ly/2jxlCFA](http://bit.ly/2jxlCFA)

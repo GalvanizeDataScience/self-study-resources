@@ -84,7 +84,6 @@ def my_function1(my_list):
 print my_function1(['cat', 'bad', 'dad'])
 \end{minted}
 
----
 
 \begin{minted}[linenos, fontsize=\footnotesize]{python}
 # Script 2
@@ -112,7 +111,6 @@ def my_function3(my_list):
 print my_function3(['cat', 'bad', 'dad'])
 \end{minted}
 
----
 
 \begin{minted}[linenos, fontsize=\footnotesize]{python}
 # Script 4
@@ -140,7 +138,6 @@ print my_function5(['cat', 'bad', 'dad'])
 print my_function5(['cat', 'bad', 'dad'])
 \end{minted}
 
----
 
 \begin{minted}[linenos, fontsize=\footnotesize]{python}
 # Script 6
@@ -442,7 +439,7 @@ Here is a small selection of exercises to make sure you know how to apply your k
 
   - Linear regression: model performance, interpretation of coefficients, underfitting/overfitting
 
-NB: some exercises are labeled as *extra credit*, and as such are not mandatory.
+**NOTE**: Some exercises are labeled as *Extra Credit*, and as such are not mandatory.
 
 ## Counting: permutations, combinations
 
@@ -463,7 +460,7 @@ Some links: [http://bit.ly/2iGgrir](http://bit.ly/2iGgrir), [http://bit.ly/2jXtF
 
   2. There are five flavors of ice cream: Stracciatella, Mint chocolate chip, Cookies and Cream, Butter Pecan, Pistachio and Pralines and cream. How many three scoop ice-creams can you make if all the scoops must be different flavors?
 
-  *For extra credit*: what happens if you can take several scoops of the same flavor?
+  *Extra Credit*: what happens if you can take several scoops of the same flavor?
 
 Some links: [http://bit.ly/2iNIXSF](http://bit.ly/2iNIXSF), [http://bit.ly/2jXlDiI](http://bit.ly/2jXlDiI)
 
@@ -492,9 +489,9 @@ Some links: [http://bit.ly/2iGktHi](http://bit.ly/2iGktHi)
 
 #### Independent and dependent events
 
-  1. Number of kids dressed as pumpkins vs ghost that obtained a certain number of pieces of candy on Halloween night for a kid dressed up as a pumpkin
+  1. Number of kids dressed as pumpkins or ghosts on Halloween night and the amount of candy they received:
 
-    | Number of candy | less than 10 | from 10 to 20 | from 20 to 30 | more than 30 |
+    | Amount of Candy | less than 10 | 10 - 20 | 20 - 30 | greater than 30 |
     | :-------------: | :----------: | :-----------: | :-----------: | :----------: |
     | Pumpkins        |   5          |     10        |  60           | 25           |
     | Ghosts          |   15         |     40        |  80           | 15           |
@@ -510,11 +507,11 @@ Some links: [http://bit.ly/2jmalpl](http://bit.ly/2jmalpl)
 
 #### Mutually exclusive events
 
-  Let's consider a population from which we draw a sample of 40 individuals. You know that the probability of not obtaining anyone wearing glasses in the sample in 26%. The probability of having only one individual wearing glasses is 32%. What is the probability of
+  Let's consider a population from which we draw a sample of 40 individuals. The probability of your sample having no-one with glasses is 26%. The probability of having only one individual wearing glasses is 32%. What is the probability of
 
-  (a) obtaining not more than one individual wearing glasses in a sample?
+  (a) Obtaining not more than one individual wearing glasses in a sample?
 
-  (b) obtaining more than one individual wearing glasses in a sample?
+  (b) Obtaining more than one individual wearing glasses in a sample?
 
 Some links: [http://bit.ly/2jmjyxO](http://bit.ly/2jmjyxO)
 
@@ -536,7 +533,7 @@ Some links: [http://bit.ly/2jmjHRS](http://bit.ly/2jmjyxO)
 
 ## Probability distributions Problems
 
-  Common problems relying on discrete (Binomial, Geometric, Poisson) or continuous (Uniform, Normal, Exponential) probability distributions.
+Common problems relying on discrete (Binomial, Geometric, Poisson) or continuous (Uniform, Normal, Exponential) probability distributions.
 
 Here are some [exercises](http://bit.ly/2j7GK25) (http://bit.ly/2j7GK25) with their solutions as video.
 
@@ -553,20 +550,20 @@ Here are some [exercises](http://bit.ly/2j7GK25) (http://bit.ly/2j7GK25) with th
 
 #### Poisson distribution
 
-  There are on average 20 taxis that drive past your office every 30 minutes. What is the probability that 30 taxis will drive by in 1 hour?
+  On average 20 taxis drive past your office every 30 minutes.  What is the probability that 30 taxis will drive by in 1 hour?
 
 #### Exponential distribution
 
   Let $X$, the number of years a computer works, be a random variable that follows an exponential distribution with a lambda of 3 years. You just bought a computer, what is the probability that the computer will work in 8 years?
 
-  *extra credit*: Let $X$ be a random variable that now follows an exponential distribution with a half-life of 6 years. Find the parameter of the exponential distribution. What is the probability
+  *Extra Credit*: Let $X$ be a random variable that now follows an exponential distribution with a half-life of 6 years. Find the parameter of the exponential distribution. What is the probability
   $P(X > 10)$ and the conditional probability $P(X > 20 | X > 10)$?
 
 #### Uniform distribution
 
   Let the random variable $X$ be the angle of a slice of pizza. The angle $X$ has a uniform distribution on the interval $[0, 90]$. What is the probability that your slice of pizza will have an angle between 30 and 40°?
 
-  *extra credit*: $X$ is uniform on the interval $[a, b]$, can you derive the expected value $E(X)$? The variance $V(X)$?
+  *Extra Credit*: $X$ is uniform on the interval $[a, b]$, can you derive the expected value $E(X)$? The variance $V(X)$?
 
 #### Normal distribution
 
@@ -602,7 +599,7 @@ Here are some [exercises](http://bit.ly/2j7GK25) (http://bit.ly/2j7GK25) with th
 
 ### 1. Confidence intervals
 
-  1. We are polling to get approval rate of a president. Out of a population of 4 million, 6014 were surveyed and 3485 expressed their approval. Construct a 95% confidence interval for the approval rate of the president.
+  1. We are polling to get the approval rate of the president. Out of a population of 4 million, 6014 were surveyed and 3485 expressed their approval. Construct a 95% confidence interval for the approval rate of the president.
 
   2. The weight of a random sample of 100 individuals from a population of interest was surveyed and yielded a sample average weight of 150 pounds and sample standard deviation of 20 pounds. Construct a 95% confidence interval for the average weight of the population.
 
@@ -669,7 +666,7 @@ Some links: [http://bit.ly/2jva7OY](http://bit.ly/2jva7OY)
 
     (c) Estimate the value of $y$ when $x = 4$.
 
-    *Extra credit*: Can you do these steps in Python?
+    *Extra Credit*: Can you do these steps in Python?
 
   2. Dataset
 

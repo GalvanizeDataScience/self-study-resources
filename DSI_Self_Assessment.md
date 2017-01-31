@@ -344,7 +344,7 @@ def matching_pairs(data_list):
 
     >>> data = [('a', 4), ('b', 5), ('c', 1), ('d', 3), ('e', 2), ('f',6)]
     >>> matching_pairs(data)
-    [(0,4), (1,2), (3,4)]
+    [(0,4), (1,2), (3,5)]
     '''
     pass
 \end{pythoncode}

@@ -9,11 +9,11 @@ Compiling the markdown files to PDF requires the use of [pandoc](http://pandoc.o
 To compile a specific document (e.g. `DSI_Study_Resources.md`), simply run:
 
 ```
-$ ./compile.sh DSI_Study_Resources.md
+$ ./compile_markdown DSI_Study_Resources.md
 ```
 
 To compile all markdown file at once, simply run:
 
 ```
-$ ./compile.sh
+$ ./compile_markdown
 ```

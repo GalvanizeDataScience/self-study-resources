@@ -84,6 +84,8 @@ The math background we want to see will allow you to (1) comfortably solve proba
 
 We recommend you take a full-length course in statistics or probability before applying. [Khan Academy](http://www.khanacademy.org/) and [Udacity](https://www.udacity.com/) provides some good “entry level statistics videos” and a good introductory course is available on Udacity. Make sure to work through the exercises and take the quizzes.
 
+Another option is to check out the [Galvanize Statistics Short-Course](https://galvanizeopensource.github.io/stats-shortcourse/index.html), which gives a nice primer into a lot of the statistical knowledge required for the immersive.
+
 All of these resources cover the same basic information, just in different ways and formats:
 
 * [Udacity's Intro to Statistics](https://www.udacity.com/course/intro-to-statistics--st101) (http://bit.ly/1SnQHUx)

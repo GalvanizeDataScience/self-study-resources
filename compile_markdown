@@ -6,7 +6,7 @@ if [ ! -z $1 ]; then
     # Let's first create the tex file for the specified document
     # Check to see if the filename ends with beamer.md which will indicate
     # pandoc should output beamer slides
-    if [[ $filename == *"beamer.md" ]]; then
+    if [[ $1 == *"beamer.md" ]]; then
         pandoc --to=beamer -s -o $(basename ${1//_/-} beamer.md)slides.tex $1
     else
         pandoc -s -o $(basename ${1//_/-} .md).tex $1

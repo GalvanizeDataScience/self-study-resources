@@ -695,3 +695,20 @@ Some links: [http://bit.ly/2jva7OY](http://bit.ly/2jva7OY)
     (b) What are some of the limitation of this approach?
 
 Some links: [http://bit.ly/2jXyDF6](http://bit.ly/2jXyDF6), [http://bit.ly/2jqXuRp](http://bit.ly/2jqXuRp), [http://bit.ly/2jxlCFA](http://bit.ly/2jxlCFA)
+
+
+## Modeling
+
+  1. What is Linear Regression and Logistic Regression? How are they different?
+
+  2. Describe cross-validation and its role in model selection.
+
+  3. Generally speaking, as we increase the complexity of the model we are evaluating, how is the behavior of the model's bias and variance changing?
+
+  4. A bank that grants auto loans is building a model, using historical sales data, to predict the price that a used car will sell for. Why is the average error between the predicted and actual price NOT an appropriate for evaluating the performance of the model?
+
+  5. In linear regression, how should coefficients be interpreted? What is the difference between the size of a coefficient versus its statistical significance?
+
+  6. Name two ways to measure the accuracy of a linear regression model.
+
+Some links: [http://stanford.io/1Ry9D60](http://stanford.io/1Ry9D)

@@ -37,7 +37,7 @@ These are our top 3 online resources. They cover similar topics, but have their 
 2. [Codecademy's Python Course](https://www.codecademy.com/learn/python) (Chapters 1-8, 12): An online interactive coding environment that provides lot of guidance and automatic feedback (http://bit.ly/1GO0Fx1)
 3. [Google's Python course](https://developers.google.com/edu/python/) (up to and including dictionaries): Nice resource if you like to have videos to follow along (http://bit.ly/1bmXyG5)
 
-Taking the part-time [Python Fundamentals workshop](http://www.galvanize.com/courses/intro-to-python/) offered at Galvanize is a great option if you want to learn on campus. (http://bit.ly/1LBc6Ua)
+Taking the part-time [Python Fundamentals part-time class](http://www.galvanize.com/courses/intro-to-python/) offered at Galvanize is a great option if you want to learn on campus. (http://bit.ly/1LBc6Ua)
 
 Even better, if you take the workshop and are accepted into the Galvanize Data Science program, we will credit the amount you paid for the workshop to your tuition balance.
 

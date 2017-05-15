@@ -37,7 +37,7 @@ These are our top 3 online resources. They cover similar topics, but have their 
 2. [Codecademy's Python Course](https://www.codecademy.com/learn/python) (Chapters 1-8, 12): An online interactive coding environment that provides lot of guidance and automatic feedback (http://bit.ly/1GO0Fx1)
 3. [Google's Python course](https://developers.google.com/edu/python/) (up to and including dictionaries): Nice resource if you like to have videos to follow along (http://bit.ly/1bmXyG5)
 
-Taking the part-time [Python Fundamentals workshop](http://www.galvanize.com/courses/intro-to-python/) offered at Galvanize is a great option if you want to learn on campus. (http://bit.ly/1LBc6Ua)
+Taking the part-time [Python Fundamentals part-time class](http://www.galvanize.com/courses/intro-to-python/) offered at Galvanize is a great option if you want to learn on campus. (http://bit.ly/1LBc6Ua)
 
 Even better, if you take the workshop and are accepted into the Galvanize Data Science program, we will credit the amount you paid for the workshop to your tuition balance.
 
@@ -121,7 +121,7 @@ There are excellent exercises mentioned in the resources above. Should you wish 
 
 #### Want to go further?
 
-To go beyond the call of duty, and make sure you are in great shape for the program, work your way through chapters 1-4 of [an Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Sixth%20Printing.pdf) (http://bit.ly/1Wma81Z). You could also enroll in [this Stanford online course](https://www.coursera.org/learn/machine-learning) (http://bit.ly/1IXp8Lg) or find the same material in this [Introduction to Machine Learning course](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) (http://bit.ly/2bp2YJX).
+To go beyond the call of duty, and make sure you are in great shape for the program, work your way through chapters 1-5 of [an Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Sixth%20Printing.pdf) (http://bit.ly/1Wma81Z), the same material is also covered through this online Stanford course (http://stanford.io/1Ry9D60). You could also enroll in [this Stanford online course](https://www.coursera.org/learn/machine-learning) (http://bit.ly/1IXp8Lg) or find the same material in this [Introduction to Machine Learning course](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) (http://bit.ly/2bp2YJX).
 
 Want to practice on some mock challenges? Checkout the math challenges of the self assessment document.
 

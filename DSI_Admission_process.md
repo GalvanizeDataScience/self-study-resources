@@ -16,7 +16,7 @@ include-before:
 
 # Admissions Process Description
 
-## Technical Assessment sent via email (3 questions, 4-hour time limit)
+## Technical Exercise sent via email (3 questions)
 
 1. The Python question will just be a basic programming task testing your ability to structure a program. You can solve it without any special libraries.
 2. The SQL material is all about querying. We will provide an outline of tables, and then you will have to write a query to pull information from these tables.

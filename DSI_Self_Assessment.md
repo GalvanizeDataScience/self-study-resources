@@ -192,7 +192,7 @@ Practice, practice, practice: we encourage you to work through these challenges.
 
 ## Challenge 1
 
-Write a function that looks at the number of times given letters appear in a document. The output should be in a dictionary.
+Write a function that looks at the number of times the given letters appear in a document. The output should be in a dictionary.
 
 \begin{pythoncode}
 def letter_counter(path_to_file, letters_to_count):
@@ -236,7 +236,7 @@ def remove_item(list_items, item_to_remove):
     ----------_
     list_items: list
     item_to_remove: object
-        The object to be removed form list_items
+        The object to be removed from list_items
 
     Returns
     --------
@@ -325,7 +325,7 @@ def count_isograms(list_of_words):
 
 Write a function that returns a list of matching items.  Items are defined by a tuple with a letter and a number and we consider item 1 to match item 2 if:
 
-1. Both their letters are vowels (aeiou), or both are consonnants and,
+1. Both their letters are vowels (aeiou), or both are consonants and,
 2. The sum of their numbers is a multiple of 3
 
 (1,2) contains the same information as (2,1), the output list should only contain one of them.
@@ -482,7 +482,7 @@ Some links: [http://bit.ly/2iNCwyS](http://bit.ly/2iNCwyS), [http://bit.ly/OtSNH
 
   1. What is the probability that the total of two dice is less than four, knowing that the first die is a 2?
 
-  2. 90% of candidates to a Web developer position can code both in Javascript and HTML. 70% of these candidates can code in Javascript and 50% can code in HTML. What is the probability that a candidate can code in HTML knowing that he can code in Javascript?
+  2. 25% of candidates to a Web developer position can code both in Javascript and HTML. 70% of these candidates can code in Javascript and 50% can code in HTML. What is the probability that a candidate can code in HTML knowing that he can code in Javascript?
 
 Some links: [http://bit.ly/2iGktHi](http://bit.ly/2iGktHi)
 

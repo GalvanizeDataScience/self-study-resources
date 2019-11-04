@@ -14,6 +14,8 @@ include-before:
 
 ---
 
+[galvanize logo](imgs/logo.png)
+
 # Admissions Process Description
 
 ## Technical Exercise sent via email (3 questions)

@@ -15,7 +15,7 @@ include-before:
 ---
 
 <div style="text-align:center"><img src="https://raw.githubusercontent.com/GalvanizeDataScience/self-study-resources/master/imgs/logo.png" /></div>
-![galvanize logo](imgs/logo.png)
+
 
 
 # Admissions Process Description

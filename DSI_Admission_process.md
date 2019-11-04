@@ -14,7 +14,9 @@ include-before:
 
 ---
 
-<center>![galvanize logo](imgs/logo.png)</center>
+<center>
+    ![galvanize logo](imgs/logo.png)
+</center>
 
 # Admissions Process Description
 
